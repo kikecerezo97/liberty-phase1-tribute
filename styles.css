@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(238,238,238);
+    padding: 0px 15%;
+}
+
+#main{
+    background-color: rgb(255,255,255);
+    margin: 30px 0;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+#title{
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#img-div > figcaption {
+    background-image: url('assets/DennisRitchie.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+}
+@media only screen and (min-width: 768px) {
+    figcaption {
+        height: 420px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    figcaption {
+        height: 180px;
+    }
+}
+#tribute-info{
+    padding-bottom: 55px;
+
+}
+footer {
+    width: 100%;
+    font-family: sans-serif;
+    background-color: rgb(44,47,49);
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 45px;
+
+}
+footer > a, b {
+    color: #e3e3e3;
+}
+footer > a{
+    color: rgb(71,161,158);
+}
